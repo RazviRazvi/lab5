@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define INT_MIN 0;
 
 typedef int Data;
 struct Elem{

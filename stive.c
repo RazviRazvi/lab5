@@ -1,7 +1,6 @@
 #include "stive.h"
 
 Data top(Node *top){
-	int INT_MIN='n';
 	if (isEmpty(top)) return INT_MIN;
 	return top->val;
 } 
@@ -14,7 +13,6 @@ void push(Node**top, Data v) {
 }
 
 Data pop(Node**top) {
-	int INT_MIN='n';
 	if (isEmpty(*top)) return INT_MIN;
 	Node *temp=(*top); 		
 	Data aux=temp->val;	
