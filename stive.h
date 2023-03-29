@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define INT_MIN 0;
 
-typedef int Data;
+typedef char Data;
 struct Elem{
 Data val;
 struct Elem* next;
